@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Safe Route</title>
 		<link rel="stylesheet" href="index.css"/>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdhFSjCMUQwM-qggTX9wapsVEfDWPQapY"></script>
 	</head>
     <body>
+		<div id="header"></div>
+		<div id="side-bar">
+			<form id="crime-checks" action="">
+				<div id="separate-right">
+					<input type="checkbox" name="crime" value="arson">Arson<br>
+					<input type="checkbox" name="crime" value="auto-theft">Car Theft
+				</div>
+				<div id="separate-left">
+					<input type="checkbox" name="crime" value="theft">Theft<br>
+					<input type="checkbox" name="crime" value="homicide">Homicide<br>
+					<input type="checkbox" name="crime" value="sexual-assualt">Sexual Assualt
+				</div>
+			</form>
+		</div>
         <div id="map-canvas"></div>
+		<div id="footer"></div>
 		<script type="text/javascript" src="index.js"></script>
   </body>
 </html>

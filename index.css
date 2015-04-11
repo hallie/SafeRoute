@@ -1,5 +1,60 @@
-html, body, #map-canvas {
+html, body {
 	height: 100%;
+	widows: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 12%;
+	width: 100%;
+	background-color: #1F1F2E;
+	border-bottom: medium solid #3366FF;
+}
+
+#side-bar {
+	position: absolute;
+	left: 0;
+	top: 12.5%;
+	width: 30%;
+	height: 77.5%;
+	background-color: #33334C;
+}
+
+#map-canvas {
+	position: absolute;
+	left: 30%;
+	top: 12.5%;
+	width: 100%;
+	height: 77.5%;
+}
+
+#footer {
+	position: absolute;
+	top: 90%;
+	left: 0;
+	height: 10%;
+	width: 100%;
+	background-color: #1F1F2E;
+	border-top: medium solid #3366FF;
+}
+
+#crime-checks {
+	color: #777777;
+	padding: 5px;
+}
+
+#separate-left {
+	position: absolute;
+	left: 10%;
+	top: 5%;
+}
+
+#separate-right {
+	position: absolute;
+	left: 50%;
+	top: 5%;
 }
