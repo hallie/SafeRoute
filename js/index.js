@@ -9,14 +9,14 @@ var map,
 	HOMICIDE_BUTTON = 'https://storage.googleapis.com/support-kms-prod/SNP_2752125_en_v0',
 //Pink circle
 	SEXUAL_ASSAULT_BUTTON = 'https://storage.googleapis.com/support-kms-prod/SNP_2752264_en_v0',
-//Blue circle
-	THEFT_BUTTON = 'https://storage.googleapis.com/support-kms-prod/SNP_2752068_en_v0';
+//Green circle
+	THEFT_BUTTON = 'https://storage.googleapis.com/support-kms-prod/SNP_2752129_en_v0 ';
 
 function addMarker(lat, lon, button) {
 	"use strict";
 	var marker = new google.maps.Marker({
 			position: new google.maps.LatLng(lat, lon),
-			icon: button.icon,
+			icon: button,
 			map: map
 		});
 	return marker;
@@ -65,7 +65,7 @@ function initialize() {
 	map = new google.maps.Map(document.getElementById('map-canvas'), {
 		// 38º 89' N, 77º 03' W
 		center: { lat: 38.89, lng: -77.03 },
-		zoom: 8
+		zoom: 12
 	});
 }
 

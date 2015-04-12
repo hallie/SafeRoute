@@ -12,17 +12,27 @@
 			<form id="crime-checks">
 				<div id="separate-right">
 					<input type="checkbox" name="crime" value="arson">Arson<br>
-					<input type="checkbox" name="crime" value="auto-theft">Car Theft
+					<input type="checkbox" name="crime" value="auto_theft">Car Theft
 				</div>
 				<div id="separate-left">
 					<input type="checkbox" name="crime" value="theft">Theft<br>
 					<input type="checkbox" name="crime" value="homicide">Homicide<br>
-					<input type="checkbox" name="crime" value="sexual-assualt">Sexual Assualt
+					<input type="checkbox" name="crime" value="sex_assault">Sexual Assualt
 				</div>
+			</form>
+			<form id="directions">
+				<input class="bar" id="start" type="text"><br>
+				<input class="bar" id="finish" type="text"><br>
+				<input id="submit" type="submit">
 			</form>
 		</div>
         <div id="map-canvas"></div>
-		<div id="footer"></div>
+		<div id="footer">
+			<div id="crime-info">
+				Criminal activity information obtained and owned by the
+				<a href="">District of Columbia</a>
+			</div>
+		</div>
 		<script type="text/javascript" src="js/assets/jquery-2.1.3.min.js"></script>
 		<script type="text/javascript" src="js/assets/jquery-2.1.3.js"></script>
 		<script type="text/javascript" src="js/lists.js"></script>

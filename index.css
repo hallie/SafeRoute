@@ -9,7 +9,7 @@ html, body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 12%;
+	height: 15%;
 	width: 100%;
 	background-color: #1F1F2E;
 	border-bottom: medium solid #3366FF;
@@ -18,29 +18,69 @@ html, body {
 #side-bar {
 	position: absolute;
 	left: 0;
-	top: 12.5%;
+	top: 15.5%;
 	width: 30%;
 	height: 77.5%;
 	background-color: #33334C;
 	border-right: medium solid #3366FF;
 }
 
+#directions {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	width: 85%;
+}
+
+.bar {
+	width: 80%;
+	border-radius: 2px;
+	height: 15px;
+}
+
+#start {
+}
+
+#finish {
+	position: relative;
+	top: 50px;
+}
+
+#submit {
+	position: relative;
+	top: 80px;
+	left: 155px;
+	
+}
+
 #map-canvas {
 	position: absolute;
 	left: 30.5%;
-	top: 12.5%;
+	top: 15.5%;
 	width: 69.5%;
 	height: 77.5%;
 }
 
 #footer {
 	position: absolute;
-	top: 90%;
+	top: 93%;
 	left: 0;
-	height: 10%;
+	height: 7%;
 	width: 100%;
 	background-color: #1F1F2E;
 	border-top: medium solid #3366FF;
+	
+	text-align: center;
+}
+
+#crime-info {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 100%;
+	color: aliceblue;
+	text-align: center;
+	font-size: 70%;
 }
 
 #crime-checks {
