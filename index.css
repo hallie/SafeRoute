@@ -22,13 +22,14 @@ html, body {
 	width: 30%;
 	height: 77.5%;
 	background-color: #33334C;
+	border-right: medium solid #3366FF;
 }
 
 #map-canvas {
 	position: absolute;
-	left: 30%;
+	left: 30.5%;
 	top: 12.5%;
-	width: 100%;
+	width: 69.5%;
 	height: 77.5%;
 }
 
